@@ -46,17 +46,11 @@ Finds the mathematically cheapest place to fill up, either near you or along a r
 
 A cheaper station is only cheaper if the extra driving doesn't eat the saving. Fuel burned on the detour has to be bought too, so for a fill of $V$ litres:
 
-$$
-\text{detour\_litres} = \frac{\text{detour\_miles}}{\text{mpg}} \times 4.54609
-$$
+$$\text{detour litres} = \frac{\text{detour miles}}{\text{mpg}} \times 4.54609$$
 
-$$
-\text{true\_cost} = \text{price\_per\_litre} \times (V + \text{detour\_litres})
-$$
+$$\text{true cost} = \text{price per litre} \times (V + \text{detour litres})$$
 
-$$
-\text{effective p/L} = \frac{\text{true\_cost}}{V}
-$$
+$$\text{effective p/L} = \frac{\text{true cost}}{V}$$
 
 Stations are ranked by `true_cost` (lowest first).
 
