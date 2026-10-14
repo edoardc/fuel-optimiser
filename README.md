@@ -20,7 +20,7 @@ Finds the mathematically cheapest place to fill up, either near you or along a r
    ```
 
 2. **Get API Credentials**
-   Register for free API credentials (requires a GOV.UK One Login) at [developer.fuel-finder.service.gov.uk](https://developer.fuel-finder.service.gov.uk).
+   Register for free API credentials (requires a GOV.UK One Login) at [developer.fuel-finder.service.gov.uk](https://www.developer.fuel-finder.service.gov.uk/fuel-finder/public-api).
 
 3. **Configure Environment Variables**
    Create a `.env` file in the same folder as the script:
